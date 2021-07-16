@@ -7,7 +7,7 @@ public class Calculator2 {
     private ArrayList<String> operationsArray = new ArrayList<>();
     private double result = 0;
 
-    public Calculator2(ArrayList<Double> numberOfArray, ArrayList<String> operationsArray, double result) {
+    public Calculator2() {
         this.numberOfArray = numberOfArray;
         this.operationsArray = operationsArray;
         this.result = result;
